@@ -1,0 +1,66 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(35, 34, 43) !important;
+}
+
+#logoimg {
+    width: 100px;
+    height: 60px;
+}
+.navanim{
+    transition: 0.2s;
+}
+.navanim:hover{
+    transform: translateY(4px);
+}
+.item{
+    transition: 0.2s;
+}
+.item:hover{
+    color: rgb(8, 0, 114) !important;
+    background-color: rgb(215, 213, 255) !important;
+    transform: scale(1.1);
+}
+
+.head{
+    max-width: 1200px !important;
+    color: white;
+}
+.head h2{
+    text-align: center;
+}
+.head p{
+    padding-top: 25px;
+    text-align: justify;
+}
+.head .kerala{
+    color: chocolate;
+}
+
+.how-to{
+    max-width: 1200px !important;
+}
+
+.how-to .content{
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+.reach h4{
+    color: rgb(219, 151, 103);
+}
+
+.reach ul{
+    list-style-type: square;
+}
+#footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
